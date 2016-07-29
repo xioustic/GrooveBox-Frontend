@@ -26,7 +26,14 @@ module.exports = {
         test: /\.(png|jpg|gif|svg)$/,
         loader: 'file',
         query: {
-          name: '[name].[ext]?[hash]'
+          name: 'img/[name].[ext]?[hash]'
+        }
+      },
+      {
+        test: /\.(ttf|woff|woff2|eot)$/,
+        loader: 'file',
+        query: {
+          name: 'fonts/[name].[ext]?[hash]'
         }
       }
     ]
