@@ -1,0 +1,23 @@
+<template>
+  <article id="lyrics">
+    <div class="content">
+      <div v-if="song.lyrics" v-html="song.lyrics"></div>
+      <p class="none" v-else>No lyrics found. Are you not listening to Bach?</p>
+    </div>
+  </article>
+</template>
+
+<script>
+export default {
+  props: ['song'],
+
+  methods: {
+    resetState() {},
+  },
+};
+</script>
+
+<style lang="sass">
+@import "../../../assets/sass/partials/_vars.scss";
+@import "../../../assets/sass/partials/_mixins.scss";
+</style>
