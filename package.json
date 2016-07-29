@@ -1,6 +1,6 @@
 {
-  "name": "groovebox-frontend",
-  "description": "A Vue.js project",
+  "name": "GrooveBox Frontend",
+  "description": "Koel's frontend ported for GrooveBox use.",
   "author": "Xioustic <xioustic@gmail.com>",
   "private": true,
   "scripts": {

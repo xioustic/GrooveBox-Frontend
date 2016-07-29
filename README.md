@@ -1,6 +1,6 @@
-# groovebox-frontend
+# GrooveBox Frontend
 
-> A Vue.js project
+> Koel's frontend ripped and ported for GrooveBox use.
 
 ## Build Setup
 
