@@ -218,6 +218,8 @@ Vue.directive('koel-focus', focusDirective);
 Vue.directive('koel-clickaway',clickawayDirective);
 </script>
 
+<style src="./assets/css/meyer-reset.min.css"></style>
+<style src="./assets/css/font.css"></style>
 <style lang="sass">
 @import "assets/sass/partials/_vars.scss";
 @import "assets/sass/partials/_mixins.scss";
